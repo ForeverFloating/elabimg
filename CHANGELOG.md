@@ -1,6 +1,13 @@
 # Container image version
 # Note: the version here is from `ELABIMG_VERSION` present in Dockerfile, not the tagged one
 
+# 5.2.0
+
+* Update base image to Alpine 3.19
+* Update PHP version to 8.3
+* Silence /healthcheck.php in the logs
+* Remove the "version" key from example docker-compose file
+
 # 5.1.0
 
 * Add Access-Control-Expose-Headers with Location, Content-Disposition, Cache-Control and Content-Encoding
