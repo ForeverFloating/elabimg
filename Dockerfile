@@ -155,6 +155,7 @@ ENV ELABIMG_VERSION=5.5.0
 # the target elabftw version is passed with --build-arg
 # it is a mandatory ARG
 ARG ELABFTW_VERSION
+ENV COMPOSER_ROOT_VERSION=${ELABFTW_VERSION}
 
 LABEL net.elabftw.name="elabftw" \
     net.elabftw.description="Run nginx and php-fpm to serve elabftw" \
